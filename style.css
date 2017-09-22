@@ -1,0 +1,175 @@
+body {
+	margin: 0px;
+}
+
+
+.main {
+	height: 700px;
+	background-image: url(/images/background.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}	
+
+@media screen and (min-width: 1000px) {
+	#container {
+		height: 700px;
+		width: 1000px;
+		margin: 0 auto;
+	}
+}
+
+.header {
+	margin-top: 0px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+nav {
+	float: right;
+	margin-top: 26px;
+}
+
+.navbar {
+	color: #fff;
+	font-size: 20px;
+	margin-left: 30px;
+	text-decoration: none;
+}
+
+.navbar:hover {
+	text-decoration: underline;
+}
+
+span {
+	width: 100%;
+}
+
+h1 {
+	text-align: : center;
+	font-size: 80px;
+	color: #fff;
+	text-align: center;
+	clear: both;
+	padding-top: 150px;
+}
+
+h2 {
+	text-align: : center;
+	font-size: 36px;
+	color: #fff;
+	text-align: center;
+	clear: both;
+	margin-top: -50px;
+}
+
+
+/*Header Section*/
+
+#head {
+	height: 350px;
+	width: 100%;
+	background-image: url(/images/background2.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.main2 {
+	height: 350px;
+	background-image: url(/images/background.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}	
+
+.port {
+	padding-top: 75px;
+}
+
+.portfolio {
+	width: 300px;
+	height: 250px;
+}
+
+.padding {
+	padding-left: 46px;
+}
+
+.one {
+	margin-top: 46px;
+}
+
+.two {
+	margin-top: 46px;
+}
+
+/*Footer Section*/
+footer {
+	width: 100%;
+	height: 450px;
+	/*background-color: blue;*/
+	margin-top: -25px;
+}
+
+/*#foot { /*so we can center the footer
+	height: 100%;
+	width: 1000px;
+	margin: 0 auto;
+}*/
+
+h3 {
+	color: white;
+}
+
+div.social {
+	float: left;
+	margin-top: 20px;
+}
+
+a.social {
+	margin-right: 15px;
+	padding-top: 10px;
+}
+
+div.contact {
+	margin-top: 20px;
+	float: right;
+	margin-right: 170px;
+}
+
+.fb {
+	width: 20px;
+	height: 20px;
+}
+
+label {
+	color: white;
+}
+
+input.text {
+	height: 25px;
+	width: 250px;
+	border-radius: 4px;
+	border: none;
+}
+
+textarea.message {
+	height: 100px;
+	width: 250px;
+	border-radius: 4px;
+	border: none;
+}
+
+input.submit {
+	height: 25px;
+	width: 60px;
+	background-color: white;
+	color: blue;
+	border-radius: 4px;
+	border: none;
+}
+
+input.submit:hover {
+	text-decoration: underline;
+}
